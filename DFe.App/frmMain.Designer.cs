@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnClose = new LollipopButton();
+            this.lollipopLabel3 = new LollipopLabel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnSearch = new LollipopButton();
             this.lollipopLabel9 = new LollipopLabel();
@@ -58,8 +60,6 @@
             this.inputXmlFile = new LollipopFileInput();
             this.cardCompany = new LollipopSmallCard();
             this.lollipopProgressBar1 = new LollipopProgressBar();
-            this.btnClose = new LollipopButton();
-            this.lollipopLabel3 = new LollipopLabel();
             this.lollipopLabel5 = new LollipopLabel();
             this.lollipopLabel12 = new LollipopLabel();
             this.panel1.SuspendLayout();
@@ -76,6 +76,32 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(784, 50);
             this.panel1.TabIndex = 99;
+            // 
+            // btnClose
+            // 
+            this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnClose.BackColor = System.Drawing.Color.Transparent;
+            this.btnClose.BGColor = "#F44336";
+            this.btnClose.FontColor = "#ffffff";
+            this.btnClose.Location = new System.Drawing.Point(722, 12);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(50, 25);
+            this.btnClose.TabIndex = 99;
+            this.btnClose.TabStop = false;
+            this.btnClose.Text = "Fechar";
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
+            // lollipopLabel3
+            // 
+            this.lollipopLabel3.AutoSize = true;
+            this.lollipopLabel3.BackColor = System.Drawing.Color.Transparent;
+            this.lollipopLabel3.Font = new System.Drawing.Font("Roboto Medium", 15F);
+            this.lollipopLabel3.ForeColor = System.Drawing.Color.White;
+            this.lollipopLabel3.Location = new System.Drawing.Point(12, 9);
+            this.lollipopLabel3.Name = "lollipopLabel3";
+            this.lollipopLabel3.Size = new System.Drawing.Size(95, 26);
+            this.lollipopLabel3.TabIndex = 99;
+            this.lollipopLabel3.Text = "DF-e App";
             // 
             // pictureBox1
             // 
@@ -471,32 +497,6 @@
             this.lollipopProgressBar1.TabStop = false;
             this.lollipopProgressBar1.Text = "lollipopProgressBar1";
             this.lollipopProgressBar1.Value = 100;
-            // 
-            // btnClose
-            // 
-            this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnClose.BackColor = System.Drawing.Color.Transparent;
-            this.btnClose.BGColor = "#F44336";
-            this.btnClose.FontColor = "#ffffff";
-            this.btnClose.Location = new System.Drawing.Point(722, 12);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(50, 25);
-            this.btnClose.TabIndex = 99;
-            this.btnClose.TabStop = false;
-            this.btnClose.Text = "Fechar";
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
-            // 
-            // lollipopLabel3
-            // 
-            this.lollipopLabel3.AutoSize = true;
-            this.lollipopLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.lollipopLabel3.Font = new System.Drawing.Font("Roboto Medium", 15F);
-            this.lollipopLabel3.ForeColor = System.Drawing.Color.White;
-            this.lollipopLabel3.Location = new System.Drawing.Point(12, 9);
-            this.lollipopLabel3.Name = "lollipopLabel3";
-            this.lollipopLabel3.Size = new System.Drawing.Size(95, 26);
-            this.lollipopLabel3.TabIndex = 99;
-            this.lollipopLabel3.Text = "DF-e App";
             // 
             // lollipopLabel5
             // 
